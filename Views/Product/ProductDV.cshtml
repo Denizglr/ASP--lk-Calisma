@@ -1,0 +1,32 @@
+﻿@model List<Ödev1.Models.Product>
+
+<div class="container mt-4">
+    <h2>Ürün Yönetimi (Düzenle / Sil)</h2>
+    <table class="table table-hover table-bordered mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Ürün Adı</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Category</td>
+                    <td>@item.Price TL</td>
+                    <td>
+                        <a href="/Product/ProductEdit/@item.Id" class="btn btn-sm btn-warning">Düzenle</a>
+                        <a href="/Product/ProductDelete/@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('Silmek istediğine emin misin?')">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Product/ProductList" class="btn btn-secondary">Listeye Geri Dön</a>
+</div>

@@ -1,0 +1,27 @@
+﻿@model Ödev1.Models.Product
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h3>Ürün Detayları</h3>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title text-primary">@Model.Name</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">Kategori:</dt>
+                <dd class="col-sm-9">@Model.Category</dd>
+
+                <dt class="col-sm-3">Fiyat:</dt>
+                <dd class="col-sm-9 text-success fw-bold">@Model.Price TL</dd>
+
+                <dt class="col-sm-3">Açıklama:</dt>
+                <dd class="col-sm-9">@(string.IsNullOrEmpty(Model.Description) ? "Açıklama bulunmuyor." : Model.Description)</dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a href="/Product/ProductList" class="btn btn-secondary">Listeye Dön</a>
+            <a href="/Product/ProductDV" class="btn btn-warning">Düzenle</a>
+        </div>
+    </div>
+</div>

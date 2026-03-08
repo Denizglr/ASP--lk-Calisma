@@ -1,0 +1,37 @@
+﻿@model List<Product> // Bu sefer tek bir ürün değil, ürün listesi bekliyoruz
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>Ürün Listesi</h2>
+        <a href="/Product/ProductAdd" class="btn btn-success">Yeni Ürün Ekle</a>
+    </div>
+    <hr />
+
+    <div class="row">
+        @if (Model.Count == 0)
+        {
+            <div class="col-12 text-center">
+                <p class="text-muted">Henüz hiç ürün eklenmemiş.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@item.Category</h6>
+                            <p class="card-text">Fiyat: @item.Price TL</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-white border-top-0">
+                            <a href="/Product/ProductDetay/@item.Id" class="btn btn-sm btn-info text-white">Detay</a>
+                            <a href="/Product/ProductDV" class="btn btn-sm btn-warning">Düzenle / Sil</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

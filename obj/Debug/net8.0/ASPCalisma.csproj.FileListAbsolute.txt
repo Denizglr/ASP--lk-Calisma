@@ -1,0 +1,9 @@
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.AssemblyInfoInputs.cache
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.AssemblyInfo.cs
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.csproj.CoreCompileInputs.cache
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.RazorAssemblyInfo.cache
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.RazorAssemblyInfo.cs
+C:\Users\guler\Desktop\Üniversite\2. Öğretim Yılı\Bahar Dönemi\İnternet Programclığı 2\Ödev1\Ödev1\obj\Debug\net8.0\ASPCalisma.sourcelink.json
